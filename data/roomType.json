@@ -1,0 +1,23 @@
+[
+    {
+        "name": "FIRST CLASS ROOM",
+        "image": "first-class.jpg",
+        "description": "<p>FIRST CLASS ROOM Gale Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis. </p>",
+        "rate": "220 / Day"
+    },
+
+    {
+        "name": "DELUXE ROOM",
+        "image": "deluxe.jpg",
+        "description": "<p>DELUXE ROOM Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.</p>",
+        "rate": "150 / Day"
+        
+    },
+
+    {
+        "name": "SUITE ROOM",
+        "image": "suite.jpg",
+        "description": "<p>SUITE ROOM Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.</p>",
+        "rate": "180 / Day"
+    }
+]
