@@ -10,6 +10,8 @@ const travelRouter = require('./app_server/routes/travel');
 const roomRouter = require('./app_server/routes/rooms');
 const hbs = require('hbs');
 
+require("./app_api/database/db");
+
 
 const app = express();
 
