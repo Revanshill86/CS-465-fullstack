@@ -10,9 +10,9 @@ const travelRouter = require('./app_server/routes/travel');
 const roomRouter = require('./app_server/routes/rooms');
 const hbs = require('hbs');
 
-require("./app_api/database/db");
+require("./app_api/models/db");
 
-
+const apiRouter = require('./app_api/routes/index');
 const app = express();
 
 // view engine setup
@@ -33,6 +33,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/travel', travelRouter);
 app.use('/rooms', roomRouter);
+app.use('/api', apiRouter);
 
 // catch 404 and forward to ernodemror handler
 app.use(function(req, res, next) {
