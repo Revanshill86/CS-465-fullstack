@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const tripSchema = new mongoose.Schema({
     code: { type: String, required: true, index: true },
     name: { type: String, required: true, index: true },
-    length: { type: String, required: true },
+    length: { type: String, required: false },
     start: { type: Date, required: true },
     resort: { type: String, required: true },
     perPerson: {type: String, required: true },
